@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Math/what about latex.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "what about latex"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md",
+                "file": "Math/what about latex.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "index 的大纲"
+              "title": "what about latex 的大纲"
             }
           },
           {
@@ -179,18 +179,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5ebb1233bac42521",
+  "active": "16edae42b106052f",
   "lastOpenFiles": [
-    "Pictures/sakiko 2.png",
-    "Linux学习/Linux之基于VSCode和cmake实现C、C++开发与调试.md",
-    "Linux学习/🧠 Conda 常用命令速查表.md",
-    "Linux学习/快速学习一个函数的方法.md",
     "index.md",
-    "Linux学习/nvim.md",
-    "Linux学习/Shell编程.md",
-    "Linux学习/Install.md",
-    "Linux学习/Docker常用指令.md",
-    "Linux学习",
+    "Math/what about latex.md",
+    "Math",
+    "Pictures/sakiko 2.png",
+    "Linux/Linux之基于VSCode和cmake实现C、C++开发与调试.md",
+    "Linux/🧠 Conda 常用命令速查表.md",
+    "Linux/快速学习一个函数的方法.md",
+    "Linux/nvim.md",
+    "Linux/Shell编程.md",
+    "Linux/Install.md",
+    "Linux/Docker常用指令.md",
+    "Linux",
     "Pictures/sakiko 1.png",
     "test.md",
     "Pictures",
