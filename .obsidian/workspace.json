@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "about me.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "about me"
             }
           }
         ]
@@ -179,7 +179,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6a2f9a038f368fc9",
+  "active": "16edae42b106052f",
   "lastOpenFiles": [
     "Linux学习/nvim.md",
     "Linux学习/🧠 Conda 常用命令速查表.md",
@@ -191,7 +191,7 @@
     "Linux学习",
     "Pictures/sakiko 1.png",
     "test.md",
-    "index.md",
+    "about me.md",
     "Pictures",
     "Pictures/sakiko.png"
   ]
