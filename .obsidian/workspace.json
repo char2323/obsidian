@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Journal/2025-08-14.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "2025-08-14"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md",
+                "file": "Journal/2025-08-14.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "index 的大纲"
+              "title": "2025-08-14 的大纲"
             }
           },
           {
@@ -181,8 +181,11 @@
   },
   "active": "16edae42b106052f",
   "lastOpenFiles": [
-    "Math/what about latex.md",
+    "Journal/template.md",
+    "Journal/2025-08-14.md",
     "index.md",
+    "Journal",
+    "Math/what about latex.md",
     "Math",
     "Pictures/sakiko 2.png",
     "Linux/Linux之基于VSCode和cmake实现C、C++开发与调试.md",
