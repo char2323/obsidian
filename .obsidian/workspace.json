@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/what about latex.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "what about latex"
+              "title": "index"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math/what about latex.md",
+                "file": "index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "what about latex 的大纲"
+              "title": "index 的大纲"
             }
           },
           {
@@ -181,8 +181,8 @@
   },
   "active": "16edae42b106052f",
   "lastOpenFiles": [
-    "index.md",
     "Math/what about latex.md",
+    "index.md",
     "Math",
     "Pictures/sakiko 2.png",
     "Linux/Linux之基于VSCode和cmake实现C、C++开发与调试.md",

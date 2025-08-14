@@ -2,6 +2,6 @@
 title: About me and this blog
 ---
 
-Here are something useless for anybody expect me.
+Here is something useless to anyone but me.
 
 ![[sakiko 2.png]]
