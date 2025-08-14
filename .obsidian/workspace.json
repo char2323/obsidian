@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "about me.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "about me"
+              "title": "index"
             }
           }
         ]
@@ -191,7 +191,7 @@
     "Linux学习",
     "Pictures/sakiko 1.png",
     "test.md",
-    "about me.md",
+    "index.md",
     "Pictures",
     "Pictures/sakiko.png"
   ]
