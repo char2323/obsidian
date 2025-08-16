@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cpp/154【杂项】算竞常用 C++ STL 用法.md",
-                "mode": "source",
+                "file": "Tools/Lazyvim.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "154【杂项】算竞常用 C++ STL 用法"
+              "title": "Lazyvim"
             }
           },
           {
@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lazyvim.md",
+                "file": "Tools/Lazyvim.md",
                 "mode": "source",
                 "source": false
               },
@@ -127,12 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "Cpp/154【杂项】算竞常用 C++ STL 用法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "index 的出链列表"
+              "title": "154【杂项】算竞常用 C++ STL 用法 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cpp/154【杂项】算竞常用 C++ STL 用法.md",
+                "file": "Tools/Lazyvim.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "154【杂项】算竞常用 C++ STL 用法 的大纲"
+              "title": "Lazyvim 的大纲"
             }
           },
           {
@@ -195,8 +195,11 @@
   },
   "active": "16edae42b106052f",
   "lastOpenFiles": [
-    "Lazyvim.md",
+    "Tools/Yazi.md",
+    "Tools/Lazyvim.md",
+    "Tools/vimoperation.md",
     "Cpp/154【杂项】算竞常用 C++ STL 用法.md",
+    "Linux/nvim.md",
     "Cpp",
     "Journal/2025-08-15.md",
     "Journal/2025-08-14.md",
@@ -210,7 +213,6 @@
     "Linux/Linux之基于VSCode和cmake实现C、C++开发与调试.md",
     "Linux/🧠 Conda 常用命令速查表.md",
     "Linux/快速学习一个函数的方法.md",
-    "Linux/nvim.md",
     "Linux/Shell编程.md",
     "Linux/Install.md",
     "Linux/Docker常用指令.md",
