@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/Lazyvim.md",
+                "file": "Cpp/\n恋恋风辰zack的cpp笔记/document/07-const修饰符.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lazyvim"
+              "title": "07-const修饰符"
             }
           }
         ],
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/Lazyvim.md",
+                "file": "Cpp/\n恋恋风辰zack的cpp笔记/document/07-const修饰符.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Lazyvim 的大纲"
+              "title": "07-const修饰符 的大纲"
             }
           },
           {
@@ -224,12 +224,14 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "5ebb1233bac42521",
+  "active": "406b50c69fad57d4",
   "lastOpenFiles": [
-    "Tools/vimoperation.md",
-    "Tools/Lazyvim.md",
-    "Tools/常用.md",
+    "Cpp/copy.md",
     "Cpp/\n恋恋风辰zack的cpp笔记/document/07-const修饰符.md",
+    "Cpp/\n恋恋风辰zack的cpp笔记/document/03-头文件和源文件.md",
+    "Tools/Lazyvim.md",
+    "Tools/vimoperation.md",
+    "Tools/常用.md",
     "Journal/2025-08-17.md",
     "Cpp/\n恋恋风辰zack的cpp笔记/document/25-智能指针.md",
     "Cpp/\n恋恋风辰zack的cpp笔记/document/30-运算符重载.md",
@@ -250,8 +252,6 @@
     "Cpp/\n恋恋风辰zack的cpp笔记/document/23-可调用对象.md",
     "Cpp/\n恋恋风辰zack的cpp笔记/document/22-内存管理.md",
     "Cpp/\n恋恋风辰zack的cpp笔记/document/21-类相关面试题.md",
-    "Cpp/\n恋恋风辰zack的cpp笔记/document/20-继承和多态.md",
-    "Cpp/\n恋恋风辰zack的cpp笔记/document/19-类的基本用法.md",
     "Cpp/\n恋恋风辰zack的cpp笔记/document",
     "Cpp/\n恋恋风辰zack的cpp笔记",
     "\n恋恋风辰zack的cpp笔记/document",
