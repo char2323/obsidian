@@ -1,9 +1,3 @@
----
-title: 零基础C++(11) string类用法
-date: 2024-10-03 13:03:31
-tags: C++ cppbase
-categories: C++ cppbase
----
 
 ### 1. 引言
 

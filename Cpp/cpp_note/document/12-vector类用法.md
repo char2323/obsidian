@@ -1,9 +1,3 @@
----
-title: 零基础C++(12) vector类用法
-date: 2024-10-04 12:50:11
-tags: C++ cppbase
-categories: C++ cppbase
----
 
 ### 1. 引言
 
