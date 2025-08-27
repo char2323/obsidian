@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cpp/项目构建.md",
+                "file": "Linux/Docker常用指令.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "项目构建"
+              "title": "Docker常用指令"
             }
           },
           {
@@ -27,15 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Database.md",
-                "mode": "preview",
+                "file": "Tools/包管理.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Database"
+              "title": "包管理"
+            }
+          },
+          {
+            "id": "3dad2dbd068e4a3c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tools/Lazyvim.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lazyvim"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -156,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cpp/\n恋恋风辰zack的cpp笔记/document/21-类相关面试题.md",
+                "file": "Tools/包管理.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "21-类相关面试题 的大纲"
+              "title": "包管理 的大纲"
             }
           },
           {
@@ -176,7 +191,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -195,10 +210,16 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "044182e0d127572c",
+  "active": "406b50c69fad57d4",
   "lastOpenFiles": [
-    "Cpp/数据库课程设计.md",
+    "Tools/Yazi.md",
+    "Tools/包管理.md",
+    "Tools/Lazyvim.md",
+    "Linux/Docker常用指令.md",
+    "Linux/🧠 Conda 常用命令速查表.md",
+    "Linux/Database.md",
     "Cpp/项目构建.md",
+    "Cpp/数据库课程设计.md",
     "Cpp/CMakeLists写法.md",
     "Cpp/dbapi.md",
     "Tools/vimoperation.md",
@@ -207,8 +228,6 @@
     "Cpp/前端.md",
     "Linux/Database2.md~",
     "Linux/Database2.md",
-    "Linux/Database.md",
-    "Linux/🧠 Conda 常用命令速查表.md",
     "未命名.canvas",
     "Cpp/154【杂项】算竞常用 C++ STL 用法.md",
     "Cpp/cpp_note/document/01-变量和输出.md",
@@ -223,9 +242,6 @@
     "Cpp/cpp_note/document/31-模板详解.md",
     "Cpp/cpp_note/document/30-运算符重载.md",
     "Cpp/cpp_note/document/29-无序map如何封装.md",
-    "Cpp/cpp_note/document/28-map用法和手写map.md",
-    "Cpp/cpp_note/document/27-手写线程安全智能指针.md",
-    "Cpp/cpp_note/document/26-手写双端队列.md",
     "Cpp/\n恋恋风辰zack的cpp笔记/document",
     "Cpp/\n恋恋风辰zack的cpp笔记",
     "\n恋恋风辰zack的cpp笔记/document",
