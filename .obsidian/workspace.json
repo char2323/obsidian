@@ -27,6 +27,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Tools/vimoperation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "vimoperation"
+            }
+          },
+          {
+            "id": "3dad2dbd068e4a3c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Tools/包管理.md",
                 "mode": "source",
                 "source": false
@@ -36,13 +50,13 @@
             }
           },
           {
-            "id": "3dad2dbd068e4a3c",
+            "id": "98b546ee8cc38042",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Tools/Lazyvim.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -50,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -195,7 +209,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,25 +222,31 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "obsidian-git:Open Git source control": false,
-      "callout-manager:Insert Callout": false
+      "callout-manager:Insert Callout": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "406b50c69fad57d4",
+  "active": "3dad2dbd068e4a3c",
   "lastOpenFiles": [
-    "Tools/Yazi.md",
-    "Tools/包管理.md",
-    "Tools/Lazyvim.md",
     "Linux/Docker常用指令.md",
+    "Tools/包管理.md",
+    "Tools/vimoperation.md",
+    "Tools/Lazyvim.md",
+    "dbproject/数据库课程设计.md",
+    "dbproject/前端.md",
+    "dbproject/项目构建.md",
+    "dbproject/flask+vue.md",
+    "Excalidraw/Drawing 2025-08-28 22.42.16.excalidraw.md",
+    "Excalidraw",
+    "Tools/常用.md",
+    "dbproject",
+    "Cpp/dbapi.md",
+    "Tools/Yazi.md",
     "Linux/🧠 Conda 常用命令速查表.md",
     "Linux/Database.md",
-    "Cpp/项目构建.md",
-    "Cpp/数据库课程设计.md",
     "Cpp/CMakeLists写法.md",
-    "Cpp/dbapi.md",
-    "Tools/vimoperation.md",
     "Cpp/数据库课程设计.md~",
     "Cpp/项目构建.md~",
-    "Cpp/前端.md",
     "Linux/Database2.md~",
     "Linux/Database2.md",
     "未命名.canvas",
@@ -239,16 +260,11 @@
     "Cpp/cpp_note/document/34-stream流.md",
     "Cpp/cpp_note/document/33-单例模式演变.md",
     "Cpp/cpp_note/document/32-原样转发和万能引用.md",
-    "Cpp/cpp_note/document/31-模板详解.md",
-    "Cpp/cpp_note/document/30-运算符重载.md",
-    "Cpp/cpp_note/document/29-无序map如何封装.md",
     "Cpp/\n恋恋风辰zack的cpp笔记/document",
     "Cpp/\n恋恋风辰zack的cpp笔记",
     "\n恋恋风辰zack的cpp笔记/document",
     "\n恋恋风辰zack的cpp笔记",
     "Journal/2025-08-15.md~",
-    "Cpp",
-    "Tools",
     "Pictures/sakiko 2.png",
     "Pictures/sakiko 1.png",
     "Pictures/sakiko.png"
