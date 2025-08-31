@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/vimoperation.md",
+                "file": "Cpp/数据库课程设计.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "vimoperation"
+              "title": "数据库课程设计"
             }
           },
           {
@@ -41,22 +41,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/包管理.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "包管理"
-            }
-          },
-          {
-            "id": "98b546ee8cc38042",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Tools/Lazyvim.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -185,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/包管理.md",
+                "file": "Tools/Lazyvim.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "包管理 的大纲"
+              "title": "Lazyvim 的大纲"
             }
           },
           {
@@ -209,8 +195,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -228,21 +213,28 @@
   },
   "active": "3dad2dbd068e4a3c",
   "lastOpenFiles": [
-    "Linux/Docker常用指令.md",
-    "Tools/包管理.md",
-    "Tools/vimoperation.md",
+    "Python/SQLAlchemy.md",
     "Tools/Lazyvim.md",
-    "dbproject/数据库课程设计.md",
-    "dbproject/前端.md",
-    "dbproject/项目构建.md",
+    "Python/Flask.md",
+    "Tools/包管理.md",
+    "Python",
+    "Linux/🧠 Conda 常用命令速查表.md",
+    "dbproject/Doc.md",
+    "dbproject/开发手册.md",
+    "dbproject/文件概览.md",
+    "dbproject/Flask 在项目中的应用详解.md",
     "dbproject/flask+vue.md",
+    "Cpp/项目构建.md",
+    "Cpp/数据库课程设计.md",
+    "Cpp/前端.md",
+    "Linux/Docker常用指令.md",
+    "Tools/vimoperation.md",
     "Excalidraw/Drawing 2025-08-28 22.42.16.excalidraw.md",
     "Excalidraw",
     "Tools/常用.md",
     "dbproject",
     "Cpp/dbapi.md",
     "Tools/Yazi.md",
-    "Linux/🧠 Conda 常用命令速查表.md",
     "Linux/Database.md",
     "Cpp/CMakeLists写法.md",
     "Cpp/数据库课程设计.md~",
@@ -254,17 +246,10 @@
     "Cpp/cpp_note/document/01-变量和输出.md",
     "Cpp/cpp_note/document/03-头文件和源文件.md",
     "Cpp/cpp_note/document/19-类的基本用法.md",
-    "Cpp/cpp_note/document/37-大结局-封装继承多态.md",
-    "Cpp/cpp_note/document/36-结课项目2-编译期多态.md",
-    "Cpp/cpp_note/document/35-结课项目1-异步日志系统.md",
-    "Cpp/cpp_note/document/34-stream流.md",
-    "Cpp/cpp_note/document/33-单例模式演变.md",
-    "Cpp/cpp_note/document/32-原样转发和万能引用.md",
     "Cpp/\n恋恋风辰zack的cpp笔记/document",
     "Cpp/\n恋恋风辰zack的cpp笔记",
     "\n恋恋风辰zack的cpp笔记/document",
     "\n恋恋风辰zack的cpp笔记",
-    "Journal/2025-08-15.md~",
     "Pictures/sakiko 2.png",
     "Pictures/sakiko 1.png",
     "Pictures/sakiko.png"
