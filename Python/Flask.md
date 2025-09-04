@@ -292,7 +292,295 @@ def index():
 
 通过这种“总管家-部门”的管理模式，你的 Flask 应用才能从一个小餐馆，优雅地扩展成一个分工明确、管理有序的大型连锁酒店。
 
+## Namespace
+
+我们来深入聊聊 Flask-RESTX 中 `Namespace` 的语法和用法。
+
+`Namespace` 是 Flask-RESTX 用来组织 API 的核心工具。在我们之前的比喻中，如果说 `Api` 对象是“外卖中心的总控制器”，那么一个 `Namespace` 就是一个具体的**“外卖业务部门”**，比如“电影外卖部”或“用户外卖部”。
+
+它是一个自包含的单元，里面打包了与某个特定资源（如电影）相关的所有东西：路由、数据模型、输入验证、输出格式化和文档。
+
+---
+
+### 1. 基本语法：创建一个 Namespace (部门成立)
+
+创建一个 `Namespace` 非常简单，你只需要给它一个名字和一段描述。
+
+Python
+
+```
+from flask_restx import Namespace
+
+# 语法：ns = Namespace('内部名称', description='对外显示的描述')
+movie_ns = Namespace('Movie', description='所有与电影相关的操作')
+user_ns = Namespace('User', description='用户账户管理')
+```
+
+- **`'Movie'`**: 这是部门的**内部代号**。它通常是唯一的，用于程序内部识别。
+    
+- **`description`**: 这是部门的**公开描述**。这段文字会直接显示在自动生成的 Swagger API 文档页面上，告诉使用者这个部门是干什么的。
+    
+
+---
+
+### 2. 核心语法组件：部门的“工具箱”
+
+一个 `Namespace` 对象 (`ns`) 就像一个工具箱，提供了一系列装饰器和方法来定义你的 API。
+
+#### a. 路由定义: `@ns.route('/path')`
+
+这是最重要的工具，用来定义这个部门负责处理哪些具体的“订单地址”（URL端点）。它通常用在 `Resource` 类上。
+
+Python
+
+```
+from flask_restx import Resource
+
+@movie_ns.route('/')  # 定义部门内的根路径
+class MovieList(Resource):
+    def get(self):
+        # 处理 GET /movies 请求的逻辑
+        pass
+
+@movie_ns.route('/<int:movie_id>') # 定义带参数的路径
+class Movie(Resource):
+    def get(self, movie_id):
+        # 处理 GET /movies/123 请求的逻辑
+        pass
+```
+
+#### b. 数据模型定义: `ns.model()`
+
+用来定义 API 输入和输出的 JSON 数据应该长什么样。这就像是为你的外卖定义一个**“标准打包盒”**。
+
+Python
+
+```
+from flask_restx import fields
+
+# 定义一个名为 'MovieModel' 的数据模型
+movie_model = movie_ns.model('MovieModel', {
+    'id': fields.Integer(description='电影的唯一ID'),
+    'title': fields.String(required=True, description='电影标题'),
+    'release_year': fields.Integer(description='上映年份')
+})
+```
+
+- `ns.model()` 创建一个数据结构模板。
+    
+- `fields` 模块提供了各种数据类型（`String`, `Integer`, `Boolean`, `Nested` 等）。
+    
+
+#### c. 输入验证: `@ns.expect()`
+
+用来声明某个端点**期望接收**什么样的数据。如果客户端发送的数据不符合这个规范，请求会自动被拒绝并返回 400 错误。
+
+Python
+
+```
+# 我们期望创建一个新电影时，客户端 POST 过来的 JSON 数据符合 movie_model 的结构
+@movie_ns.expect(movie_model)
+def post(self):
+    # 如果验证通过，数据会存放在 request.json 或 api.payload 中
+    new_movie_data = movie_ns.payload
+    # ... 创建电影的逻辑 ...
+```
+
+#### d. 输出格式化: `@ns.marshal_with()`
+
+用来声明某个端点的**输出数据**必须按照指定的模型进行格式化。这是自动打包的过程。
+
+Python
+
+```
+# 声明这个函数的返回值，会被强制打包成 movie_model 的格式
+@movie_ns.marshal_with(movie_model)
+def get(self, movie_id):
+    # 你只需要返回一个 Python 对象 (比如 SQLAlchemy 的模型实例)
+    # marshal_with 会自动帮你挑选字段、转换格式，然后变成 JSON
+    movie_object = Movie.query.get(movie_id)
+    return movie_object
+```
+
+#### e. 文档化: `@ns.doc()`, `@ns.response()`, `@ns.param()`
+
+这些工具专门用来丰富自动生成的 API 文档，让文档更清晰易懂。
+
+Python
+
+```
+@movie_ns.doc(description='根据ID获取电影详情') # 给这个端点添加一段描述
+@movie_ns.response(404, '电影未找到') # 声明这个端点可能会返回 404 错误
+@movie_ns.response(200, '成功', model=movie_model) # 声明成功时返回的数据结构
+@movie_ns.param('movie_id', '电影的唯一标识符') # 解释 URL 中的参数
+def get(self, movie_id):
+    # ...
+```
+
+---
+
+### 3. 完整示例：组装一个 `Namespace`
+
+下面是一个将所有语法组合在一起的典型 `movie` 部门的例子：
+
+Python
+
+```
+# movie.py
+from flask import request
+from flask_restx import Namespace, Resource, fields
+# from ..models import Movie # 假设这是你的 SQLAlchemy 模型
+
+# 1. 部门成立
+ns = Namespace('Movie', description='电影相关操作')
+
+# 2. 设计标准打包盒 (数据模型)
+movie_model = ns.model('MovieModel', {
+    'id': fields.Integer(readonly=True, description='电影ID'),
+    'title': fields.String(required=True, description='电影标题'),
+    'director': fields.String(required=True, description='导演'),
+})
+
+# 模拟数据库
+MOVIES_DAO = [
+    {'id': 1, 'title': '盗梦空间', 'director': '诺兰'}
+]
+
+# 3. 设置部门的出餐窗口和工作流程
+@ns.route('/')
+class MovieList(Resource):
+    @ns.doc('获取所有电影的列表')
+    @ns.marshal_list_with(movie_model) # 注意这里是 marshal_list_with，用于处理列表
+    def get(self):
+        """返回所有电影的列表"""
+        return MOVIES_DAO
+
+    @ns.doc('创建一部新电影')
+    @ns.expect(movie_model) # 期望输入的数据符合模型
+    @ns.marshal_with(movie_model, code=201) # 成功创建后，按模型返回数据，状态码 201
+    def post(self):
+        """创建一部新电影"""
+        new_movie = ns.payload
+        new_movie['id'] = len(MOVIES_DAO) + 1
+        MOVIES_DAO.append(new_movie)
+        return new_movie, 201
+
+@ns.route('/<int:id>')
+@ns.param('id', '电影的唯一ID')
+@ns.response(404, '未找到指定ID的电影')
+class Movie(Resource):
+    @ns.doc('获取单部电影详情')
+    @ns.marshal_with(movie_model)
+    def get(self, id):
+        """根据ID获取单部电影详情"""
+        for movie in MOVIES_DAO:
+            if movie['id'] == id:
+                return movie
+        ns.abort(404, f"ID为 {id} 的电影不存在")
+
+```
+
+### 4. 最后一步：注册 Namespace (部门挂牌营业)
+
+你定义好的 `Namespace` 对象（比如 `movie_ns`）本身还不能工作，需要被总控制器 `Api` 对象“注册”之后，才能真正对外提供服务。
+
+这通常在 `api/__init__.py` 或主应用文件中完成：
+
+Python
+
+```
+# __init__.py
+from .movie import ns as movie_ns
+from .user import ns as user_ns
+
+# ... 创建 api 对象 ...
+api.add_namespace(movie_ns, path='/movies')
+api.add_namespace(user_ns, path='/users')
+```
+
+- `api.add_namespace(movie_ns, path='/movies')`：这条命令就是“挂牌营业”的动作。它告诉总控制器：“请让 `movie_ns` 这个部门负责所有 `/movies` 开头的订单地址。”
+    
+
+这样，`movie_ns` 中 `@ns.route('/<int:id>')` 的最终完整路径就是 `/api/movies/<int:id>`。
+
 ## 示例
+
+> app/api/movie. py
+
+```python
+from flask_restx import Namespace, Resource, fields
+from ..models import Movie
+from .. import db
+
+# 创建命名空间，用于电影相关操作
+ns = Namespace("Movie", description="电影相关操作")
+
+# 定义电影数据模型
+movie_model = ns.model(
+    "MovieModel",
+    {
+        "id": fields.Integer(),  # 电影ID
+        "name": fields.String(),  # 电影名称
+        "cover": fields.String(),  # 封面图片链接
+        "description": fields.String(),  # 电影简介
+        "release_date": fields.Date(),  # 上映日期
+        "duration_mins": fields.Integer(),  # 电影时长（分钟）
+    },
+)
+
+
+@ns.route("/")
+class MovieList(Resource):
+    @ns.marshal_list_with(movie_model)  # 返回的列表数据按 movie_model 模型序列化
+    def get(self):
+        """获取电影列表"""
+        return Movie.query.all()  # 查询所有电影记录
+
+
+@ns.route("/<int:id>")
+@ns.param("id", "电影ID")  # 为接口文档添加参数说明
+class MovieResource(Resource):
+    @ns.marshal_with(movie_model)  # 返回的数据按 movie_model 模型序列化
+    def get(self, id):
+        """获取电影详情"""
+        movie = db.session.get(Movie, id)  # 根据主键查询电影
+        if not movie:
+            ns.abort(404, "电影未找到")  # 如果电影不存在，返回 404
+        return movie  # 返回电影信息
+
+```
+
+> app/api/__init__. py
+
+```python
+from flask import Blueprint
+from flask_restx import Api
+
+api_bp = Blueprint('api', __name__, url_prefix='/api')
+
+api = Api(api_bp, version='1.0', title='MonkeyEye API', description='猿眼电影订票系统 API', doc='/swagger/')
+
+# 导入并注册所有命名空间 (Namespace)
+from .user import ns as user_ns
+from .session import ns as session_ns
+from .movie import ns as movie_ns
+from .screen import ns as screen_ns
+from .order import ns as order_ns
+from .comment import ns as comment_ns
+from .favorite import ns as favorite_ns
+from .coupon import ns as coupon_ns
+
+api.add_namespace(user_ns, path='/users')
+api.add_namespace(session_ns, path='/session')
+api.add_namespace(movie_ns, path='/movies')
+api.add_namespace(screen_ns, path='/screens')
+api.add_namespace(order_ns, path='/orders')
+api.add_namespace(comment_ns, path='/comments')
+api.add_namespace(favorite_ns, path='/favorites')
+api.add_namespace(coupon_ns, path='/coupons')
+
+```
+
 
 这个项目，引入了一个非常强大的 Flask 扩展库：**Flask-RESTX**。它是在我们刚才讨论的 Flask 蓝图（Blueprint）基础上，专门为构建结构化、文档化的 RESTful API 提供的“超级武器”。
 

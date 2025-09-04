@@ -469,7 +469,7 @@ int main() {
 
 #### 4.2 访问字符
 
-对字符串中的字符操作，有如下方法, 切记需包含<cctype>头文件
+对字符串中的字符操作，有如下方法, 切记需包含 `cctype` 头文件
 
 ![https://cdn.llfc.club/1727933254985.jpg](https://cdn.llfc.club/1727933254985.jpg)
 
