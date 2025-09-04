@@ -62,21 +62,9 @@
               "icon": "lucide-file",
               "title": "包管理"
             }
-          },
-          {
-            "id": "16e4f36b15035399",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2025-08-31 16.45.55.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-08-31 16.45.55.excalidraw"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -133,8 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "925e955b1ae91d51",
@@ -198,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cpp/document/12-vector类用法.md",
+                "file": "Tools/Lazyvim.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "12-vector类用法 的大纲"
+              "title": "Lazyvim 的大纲"
             }
           },
           {
@@ -218,12 +205,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -239,15 +225,15 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "16e4f36b15035399",
+  "active": "e51290d120cfa68f",
   "lastOpenFiles": [
+    "Tools/包管理.md",
     "Excalidraw/Drawing 2025-08-31 16.45.55.excalidraw.md",
     "Excalidraw/Drawing 2025-08-28 22.42.16.excalidraw.md",
     "Cpp/document/14-C风格字符串和数组用法.md",
     "Cpp/document/12-vector类用法.md",
     "Cpp/document/11-string类用法.md",
     "Cpp/document/15-多维数组.md",
-    "Tools/包管理.md",
     "Tools/Lazyvim.md",
     "Cpp/document/13-迭代器用法.md",
     "Cpp/document/10-using命名空间.md",
