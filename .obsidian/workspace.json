@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cpp/document/14-C风格字符串和数组用法.md",
+                "file": "Cpp/document/18-函数用法.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "14-C风格字符串和数组用法"
+              "title": "18-函数用法"
             }
           },
           {
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/Lazyvim.md",
-                "mode": "source",
+                "file": "Cpp/document/18-函数用法.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lazyvim"
+              "title": "18-函数用法"
             }
           },
           {
@@ -121,7 +121,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "925e955b1ae91d51",
@@ -185,13 +186,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/Lazyvim.md",
+                "file": "Cpp/document/18-函数用法.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Lazyvim 的大纲"
+              "title": "18-函数用法 的大纲"
             }
           },
           {
@@ -205,7 +206,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -227,14 +228,20 @@
   },
   "active": "e51290d120cfa68f",
   "lastOpenFiles": [
+    "Cpp/document/12-vector类用法.md",
+    "Cpp/document/17-表达式和作用域.md",
+    "Cpp/document/18-函数用法.md",
+    "Cpp/document/16-运算符详解.md",
+    "Tools/Lazyvim.md",
     "Tools/包管理.md",
+    "Cpp/document/19-类的基本用法.md",
+    "Cpp/document/21-类相关面试题.md",
+    "Cpp/document/20-继承和多态.md",
+    "Cpp/document/14-C风格字符串和数组用法.md",
+    "Cpp/document/15-多维数组.md",
     "Excalidraw/Drawing 2025-08-31 16.45.55.excalidraw.md",
     "Excalidraw/Drawing 2025-08-28 22.42.16.excalidraw.md",
-    "Cpp/document/14-C风格字符串和数组用法.md",
-    "Cpp/document/12-vector类用法.md",
     "Cpp/document/11-string类用法.md",
-    "Cpp/document/15-多维数组.md",
-    "Tools/Lazyvim.md",
     "Cpp/document/13-迭代器用法.md",
     "Cpp/document/10-using命名空间.md",
     "Cpp/数据库课程设计.md",
@@ -248,14 +255,8 @@
     "Python",
     "Linux/🧠 Conda 常用命令速查表.md",
     "dbproject/开发手册.md",
-    "dbproject/flask+vue.md",
-    "Cpp/项目构建.md",
-    "Cpp/前端.md",
-    "Tools/vimoperation.md",
     "Excalidraw",
-    "Tools/常用.md",
     "dbproject",
-    "Cpp/dbapi.md",
     "Cpp/数据库课程设计.md~",
     "Cpp/项目构建.md~",
     "Linux/Database2.md~",
