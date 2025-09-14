@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cpp/document/20-继承和多态.md",
+                "file": "Cpp/document/23-可调用对象.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20-继承和多态"
+              "title": "23-可调用对象"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cpp/document/19-类的基本用法.md",
+                "file": "Cpp/document/24-stl容器详解.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "19-类的基本用法"
+              "title": "24-stl容器详解"
             }
           },
           {
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MessyThings/try.md",
-                "mode": "source",
+                "file": "Cpp/document/25-智能指针.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "try"
+              "title": "25-智能指针"
             }
           },
           {
@@ -62,9 +62,23 @@
               "icon": "lucide-file",
               "title": "CMakeLists写法"
             }
+          },
+          {
+            "id": "cdce0227cb172d7b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tools/包管理.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "包管理"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -185,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MessyThings/try.md",
+                "file": "Tools/包管理.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "try 的大纲"
+              "title": "包管理 的大纲"
             }
           },
           {
@@ -205,11 +219,12 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -225,36 +240,36 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "e51290d120cfa68f",
+  "active": "cdce0227cb172d7b",
   "lastOpenFiles": [
-    "Tools/Yazi.md",
+    "Cpp/document/25-智能指针.md",
+    "Cpp/document/21-类相关面试题.md",
+    "Cpp/document/20-继承和多态.md",
+    "Cpp/document/19-类的基本用法.md",
+    "Tools/🧠 Conda 常用命令速查表.md",
+    "Cpp/document/23-可调用对象.md",
+    "Cpp/document/22-内存管理.md",
+    "Tools/包管理.md",
+    "Cpp/CMakeLists写法.md",
+    "Cpp/document/24-stl容器详解.md",
+    "Cpp/document/26-手写双端队列.md",
     "MessyThings/try.md",
+    "Tools/Yazi.md",
     "MessyThings",
     "Cpp/document/18-函数用法.md",
-    "Cpp/document/19-类的基本用法.md",
-    "Cpp/document/20-继承和多态.md",
     "Cpp/document/17-表达式和作用域.md",
-    "Cpp/document/23-可调用对象.md",
     "Tools/答案.md",
-    "Cpp/document/22-内存管理.md",
     "Tools/插件.md",
     "Tools/space+c.md",
     "Pictures/Pasted image 20250907212704.png",
-    "Cpp/document/21-类相关面试题.md",
     "Excalidraw/Drawing 2025-09-07 09.19.59.excalidraw.md",
-    "Cpp/CMakeLists写法.md",
     "Linux/Linux之基于VSCode和cmake实现C、C++开发与调试.md",
-    "Tools/包管理.md",
     "Cpp/document/15-多维数组.md",
     "Cpp/document/12-vector类用法.md",
     "Cpp/document/16-运算符详解.md",
     "Tools/Lazyvim.md",
     "Cpp/document/14-C风格字符串和数组用法.md",
     "Excalidraw/Drawing 2025-08-31 16.45.55.excalidraw.md",
-    "Excalidraw/Drawing 2025-08-28 22.42.16.excalidraw.md",
-    "Cpp/document/11-string类用法.md",
-    "Cpp/document/13-迭代器用法.md",
-    "Cpp/document/10-using命名空间.md",
     "Python",
     "Excalidraw",
     "dbproject",
