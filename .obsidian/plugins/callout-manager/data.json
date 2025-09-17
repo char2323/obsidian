@@ -1,6 +1,8 @@
 {
   "callouts": {
-    "custom": [],
+    "custom": [
+      "definition"
+    ],
     "settings": {}
   },
   "calloutDetection": {

@@ -4,5 +4,7 @@
   "callout-manager",
   "obsidian-excalidraw-plugin",
   "obsidian-git",
-  "obsidian-icon-folder"
+  "obsidian-icon-folder",
+  "obsidian-export-image",
+  "obsidian-quiet-outline"
 ]
