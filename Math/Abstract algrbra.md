@@ -1,4 +1,2 @@
 # Number theory
 
-## mathematical induction
-
