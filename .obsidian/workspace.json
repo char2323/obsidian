@@ -53,12 +53,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/包管理.md",
+                "file": "Journal/2025-10-19.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "包管理"
+              "title": "2025-10-19"
             }
           },
           {
@@ -256,6 +256,9 @@
   },
   "active": "ba76c665784b4669",
   "lastOpenFiles": [
+    "Linux/nvim.md",
+    "Journal/2025-10-19.md",
+    "Tools/包管理.md",
     "Journal/代码熟悉.md",
     "Journal/十月目标.md",
     "Journal/九月目标.md",
@@ -271,7 +274,6 @@
     "Cpp/document/30-运算符重载.md",
     "Cpp/document/29-无序map如何封装.md",
     "Cpp/document/36-结课项目2-编译期多态.md",
-    "Tools/包管理.md",
     "Tools/🧠 Conda 常用命令速查表.md",
     "Journal/2025-09-27.md",
     "Tools/Docker + Docker Compose 常用操作速查表（Cheat Sheet）.md",
@@ -280,8 +282,6 @@
     "Cpp/document/map.md",
     "Tools/插件.md",
     "Tools/常用.md",
-    "Excalidraw/AVLTree.excalidraw.md",
-    "Tools/Yazi.md",
     "Pictures/sakiko 2.png",
     "Pictures/sakiko 1.png",
     "Pictures/sakiko.png",
