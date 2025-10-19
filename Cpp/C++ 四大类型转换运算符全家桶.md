@@ -5,7 +5,7 @@
 
 ---
 
-## 1️⃣ `static_cast<T>(expr)`
+## 1 `static_cast<T>(expr)`
 
 ### 功能
 
@@ -58,7 +58,7 @@ Derived* pd = static_cast<Derived>(pb); // ⚠️ 可能不安全
 
 ---
 
-## 2️⃣ `dynamic_cast<T>(expr)`
+## 2 `dynamic_cast<T>(expr)`
 
 ### 功能
 
@@ -106,7 +106,7 @@ Derived* pd2 = dynamic_cast<Derived*>(&b); // nullptr
 
 ---
 
-## 3️⃣ `reinterpret_cast<T>(expr)`
+## 3 `reinterpret_cast<T>(expr)`
 
 ### 功能
 
@@ -151,7 +151,7 @@ B* b1 = reinterpret_cast<B*>(&a1); // ⚠️ 非法访问，可能 UB
 
 ---
 
-## 4️⃣ `const_cast<T>(expr)`
+## 4 `const_cast<T>(expr)`
 
 ### 功能
 
@@ -193,7 +193,7 @@ print(&y); // ❌ UB，不能修改 const 对象
 
 ---
 
-## 🧠 五、总结表
+## 🧠 5、总结表
 
 |运算符|编译期/运行期|类型检查|安全性|典型用途|
 |---|---|---|---|---|
