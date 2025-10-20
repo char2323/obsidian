@@ -48,31 +48,17 @@
             }
           },
           {
-            "id": "ba76c665784b4669",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journal/2025-10-20.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-10-20"
-            }
-          },
-          {
             "id": "adf5193f85f65ccb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cpp/document/33-单例模式演变.md",
+                "file": "Math/拓扑学.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "33-单例模式演变"
+              "title": "拓扑学"
             }
           }
         ],
@@ -237,8 +223,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -254,15 +239,20 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "ba76c665784b4669",
+  "active": "adf5193f85f65ccb",
   "lastOpenFiles": [
-    "Journal/2025-10-19.md",
+    "Cpp/document/33-单例模式演变.md",
+    "Excalidraw/AVLTree.excalidraw.md",
+    "29-7.png.md",
+    "Math/拓扑学.md",
     "Journal/2025-10-20.md",
+    "Cpp/document/32-原样转发和万能引用.md",
+    "Linux/nvim.md",
+    "Journal/2025-10-19.md",
     "Cpp/C++ 四大类型转换运算符全家桶.md",
     "Journal/代码熟悉.md",
     "Journal/十月目标.md",
     "Linux/Shell编程.md",
-    "Linux/nvim.md",
     "Tools/包管理.md",
     "Journal/九月目标.md",
     "Math/Abstract algrbra.md",
@@ -270,8 +260,6 @@
     "Cpp/项目构建.md",
     "index.md",
     "Cpp/CMakeLists写法.md",
-    "Cpp/document/33-单例模式演变.md",
-    "Cpp/document/32-原样转发和万能引用.md",
     "Cpp/document/31-模板详解.md",
     "Cpp/document/30-运算符重载.md",
     "Cpp/document/29-无序map如何封装.md",
@@ -279,9 +267,6 @@
     "Tools/🧠 Conda 常用命令速查表.md",
     "Journal/2025-09-27.md",
     "Tools/Docker + Docker Compose 常用操作速查表（Cheat Sheet）.md",
-    "Cpp/document/12-vector类用法.md",
-    "Cpp/document/11-string类用法.md",
-    "Cpp/document/map.md",
     "Pictures/sakiko 2.png",
     "Pictures/sakiko 1.png",
     "Pictures/sakiko.png",
