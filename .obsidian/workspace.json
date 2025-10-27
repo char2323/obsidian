@@ -53,12 +53,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MessyThings/TSP（旅行商问题）.md",
+                "file": "MessyThings/TSP（旅行商问题）和TSP的模拟退火算法.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TSP（旅行商问题）"
+              "title": "TSP（旅行商问题）和TSP的模拟退火算法"
             }
           }
         ],
@@ -242,7 +242,7 @@
   "active": "adf5193f85f65ccb",
   "lastOpenFiles": [
     "Tools/包管理.md",
-    "MessyThings/TSP（旅行商问题）.md",
+    "MessyThings/TSP（旅行商问题）和TSP的模拟退火算法.md",
     "Cpp/document/33-单例模式演变.md",
     "Cpp/document/32-原样转发和万能引用.md",
     "Cpp/document/29-无序map如何封装.md",
