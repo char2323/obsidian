@@ -132,3 +132,34 @@ make
 ```
 
 这个 `CMakeLists.txt` 脚本是一个非常好的模板，你可以把它作为你未来所有 C++ 项目的起点。它清晰、可扩展，并且遵循了现代 C++ 项目管理的最佳实践。
+
+
+
+## A new CMakeLists
+
+```CMake
+cmake_minimum_required(VERSION 3.10)
+project(AwesomeProject LANGUAGES CXX)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# 查找所有 .cpp 文件（头文件不需要列出）
+file(GLOB_RECURSE SRC "src/*.cpp")
+
+# 查找 Boost
+find_package(Boost REQUIRED COMPONENTS filesystem system)
+
+# 定义可执行文件
+add_executable(${PROJECT_NAME} ${SRC})
+
+# 添加头文件路径（include 目录 + Boost）
+target_include_directories(${PROJECT_NAME} PRIVATE
+    ${CMAKE_SOURCE_DIR}/include
+    ${Boost_INCLUDE_DIRS}
+)
+
+# 链接 Boost 库
+target_link_libraries(${PROJECT_NAME} PRIVATE ${Boost_LIBRARIES})
+
+```
