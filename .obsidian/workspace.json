@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cpp/QT/Connect.md",
+                "file": "Journal/十一月目标.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Connect"
+              "title": "十一月目标"
             }
           }
         ],
@@ -229,12 +229,14 @@
   },
   "active": "adf5193f85f65ccb",
   "lastOpenFiles": [
-    "Tools/vimoperation.md",
+    "Journal/十月目标.md",
+    "Journal/十一月目标.md",
+    "Journal/2025-10-30.md",
     "Cpp/QT/Connect.md",
+    "Tools/vimoperation.md",
     "Cpp/QT",
     "Tools/Yazi.md",
     "Tools/Latex.md",
-    "Journal/2025-10-30.md",
     "Tools/Lazyvim.md",
     "Math/碎纸拼接复原方法.md",
     "MessyThings/TSP（旅行商问题）和TSP的模拟退火算法.md",
@@ -254,8 +256,6 @@
     "Math/拓扑学.md",
     "Excalidraw/AVLTree.excalidraw.md",
     "29-7.png.md",
-    "Journal/2025-10-19.md",
-    "Cpp/C++ 四大类型转换运算符全家桶.md",
     "Pictures/sakiko 2.png",
     "Pictures/sakiko 1.png",
     "Pictures/sakiko.png",
