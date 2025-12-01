@@ -27,30 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cpp/document/12-vector类用法.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "12-vector类用法"
-            }
-          },
-          {
-            "id": "adf5193f85f65ccb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cpp/CMakeLists写法.md",
+                "file": "小说/思路.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CMakeLists写法"
+              "title": "思路"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -228,8 +214,15 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "adf5193f85f65ccb",
+  "active": "3dad2dbd068e4a3c",
   "lastOpenFiles": [
+    "Cpp/document/12-vector类用法.md",
+    "小说/思路.md",
+    "小说",
+    "Math/Abstract algrbra.md",
+    "Tools/包管理.md",
+    "Math/抽代.md",
+    "Cpp/CMakeLists写法.md",
     "Tools/vimoperation.md",
     "计算机网络/第一章.md",
     "Journal/十一月目标.md",
@@ -243,7 +236,6 @@
     "Tools/Lazyvim.md",
     "Math/碎纸拼接复原方法.md",
     "MessyThings/TSP（旅行商问题）和TSP的模拟退火算法.md",
-    "Tools/包管理.md",
     "Cpp/document/33-单例模式演变.md",
     "Cpp/document/32-原样转发和万能引用.md",
     "Cpp/document/29-无序map如何封装.md",
@@ -252,12 +244,7 @@
     "Journal/2025-10-22.md",
     "Journal/2025-10-20.md",
     "Journal/代码熟悉.md",
-    "Math/抽代.md",
     "Math/抽象代数.md",
-    "Math/Abstract algrbra.md",
-    "Math/实变函数论.md",
-    "Math/拓扑学.md",
-    "Excalidraw/AVLTree.excalidraw.md",
     "Pictures/sakiko 2.png",
     "Pictures/sakiko 1.png",
     "Pictures/sakiko.png",
@@ -269,7 +256,6 @@
     "Cpp/数据库课程设计.md~",
     "Cpp/项目构建.md~",
     "Linux/Database2.md~",
-    "未命名.canvas",
-    "Cpp/\n恋恋风辰zack的cpp笔记/document"
+    "未命名.canvas"
   ]
 }
