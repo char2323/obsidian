@@ -128,3 +128,97 @@ Show that the prime field of $\mathbb{R}$ is $\mathbb{Q}$.
 证明 $<x^{2}+1>$ 为 $\mathbb{Z}_{3}[x]$ 的极大理想。
 
 $\bar{ar+b}=\bar{ar}$
+
+## test 1
+
+Find integers $m$ and $n$, such that $(252,380)=252m+380n$.
+
+Slove the following system of congruences.
+
+Let $n$ be a positive integer, $\mathbb{Z}_{n}$ be the equivalence classes set of $\mathbb{Z}$ module $n$. Please prove that in the set $\mathbb{Z}_{n}$, the addition given by $$
+[a]+[b]=[a+b]
+$$ is well-define.
+
+Prove that if $\alpha,\beta \in S_{n}$ are disjoint and if $\alpha\beta=(1)$, then $\alpha=(1)$ and $\beta=(1)$.
+
+Let $\sim$ be an equivalence relation on a nonempty set $X$. For any $x,y \in X$, the following are equivalent.
+- $[x]=[y]$
+- $[x]\cap[y]\neq \emptyset$
+- $x \in [y]$
+
+Consider the following permutations in $S_{7}$
+$$
+\sigma=\begin{pmatrix}
+1 & 2 & 3 & 4 & 5 & 6 & 7 \\
+2 & 5 & 6 & 1 & 7 & 3 & 4
+\end{pmatrix}\qquad \tau=\begin{pmatrix}
+1 & 2 & 3 & 4 & 5 & 6 & 7 \\
+5 & 4 & 2 & 1 & 3 & 7 & 6
+\end{pmatrix}
+$$
+Please computation the products $\sigma\tau$ and $\tau\sigma$.
+Please give the complete factorization of $\sigma$ and $\tau^{-1}$.
+
+## test 2
+
+Let $G$ be a group, $H$ and $K$ be subgroups of $G$. Please prove that $HK$ is a subgroup of $G$ iff $HK=KH$.
+
+Let $G$ be a group. Prove that $G$ is abelian iff the function $$
+\begin{equation*} 
+\begin{aligned} 
+f: &\ G \to G \\ 
+\phantom{f:} &\ g \mapsto g^{-1} 
+\end{aligned} 
+\end{equation*}
+$$is a homomorphism.
+
+Let n be a positive integet, $\mathbb{I}_{n}$ be the equivalence classes set of $\mathbb{Z}$ module n.
+(1) Prove that on the set $\mathbb{I}_{n}$, the binary operation given by $[a][b]=[ab]$ is well-defined.
+(2) Prove that $\forall[a] \in \mathbb{I}_{n},\exists[b]\in\mathbb{I}_{n}$, such that $[a][b]=[1]$ iff $a$ and $n$ are relatively prime.
+
+Let $G$ be a finite group with $\lvert G \rvert=p$, where $p$ is a prime. Using Lagrange's Theorem to prove that $G$ is cycle.
+
+Let $G$ be a finite group whit $K \lhd G$. If $(\lvert K \rvert,[G:K])=1$, prove that $K$ is the unique subgroup of $G$ having order $\lvert K \rvert$.
+
+If $G$ is a group and $G/Z(G)$ is cyclic, where $Z(g)$ denotes the center of $G$, prove $G$ is abelian.
+
+If $G$ is a finite abelian group, then for any prime divisor $p$ of $\lvert G \rvert$, $G$ has an element $g \in G$ such that $g$ has order $p$.
+
+Prove that in the group $A_{4}$ has not any subgroup with order $6$.
+
+Show that the center of the group $GL(2,\mathbb{R})$ is the set of all scalar matrices $$
+\begin{pmatrix}
+a & 0 \\
+0 & a
+\end{pmatrix}
+$$with $a\neq 0$.
+
+## test 3
+
+Let group $G$ act on a set $X$. If $x \in X$ and $\sigma \in G$, then $G_{\sigma x}=\sigma G_{x}\sigma^{-1}$.
+
+Let $G$ be a group with $\lvert G \rvert=mp$, where $p$ is a prime and $1<m<p$. Prove that $G$ is not simple.
+
+If $p$ is a prime and $G$ is a $p-\text{group}$ with more than one element, prove that $\lvert Z(G) \rvert>1$.
+
+Prove that $R=\{ a+b\sqrt{ 2 }:a,b \in \mathbb{Z} \}$ is a domain.
+
+Let $G$ be a finite group whit $K \lhd G$. If $(\lvert K \rvert,[G:K])=1$, prove that $K$ is the unique subgroup of $G$ having order $\lvert K \rvert$.
+
+Set $$
+\mathbb{F}_{4}=\left\{ 
+\begin{pmatrix}a & b \\
+b & a+b
+\end{pmatrix}:a,b \in \mathbb{I}_{2} 
+\right\}
+$$
+Prove that $\mathbb{F}_{4}$ is a filed whose operations are matrix addition and matrix multiplication.
+
+Show that the prime field of $\mathbb{R}$ is $\mathbb{Q}$.
+
+Let $R$ be a domain. Prove that if a polynomial $f(x)\in R[x]$ is a unit, then $f(x)$ is a nonzero constant.
+
+Let $R$ and $S$ be commutative rings, and let $\phi:R\to S$ be a homomorphism with $\ker\phi=I$. If $J$ is an ideal in $S$, prove that $\phi^{-1}(J)$ is an ideal in $R$ which contains $I$.
+
+If $R$ and $S$ are commutative rings, prove that $U(R\times S)=U(R)\times U(S)$, where $U(R)$ is the group of units of $R$.
+
