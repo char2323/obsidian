@@ -1,7 +1,7 @@
 {
-  "cssTheme": "Zen",
+  "cssTheme": "Border",
   "baseFontSizeAction": true,
-  "baseFontSize": 30,
+  "baseFontSize": 18,
   "interfaceFontFamily": "LXGW WenKai Mono,Inter",
   "textFontFamily": "LXGW WenKai Mono",
   "theme": "system"

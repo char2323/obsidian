@@ -14,13 +14,5 @@
       ],
       "key": "P"
     }
-  ],
-  "callout-manager:manage-callouts": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "A"
-    }
   ]
 }
