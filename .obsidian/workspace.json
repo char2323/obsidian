@@ -105,7 +105,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "925e955b1ae91d51",
@@ -227,7 +228,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "4cae1fbcd013a8ec",
+  "active": "3e444ced248d184a",
   "lastOpenFiles": [
     "未命名.md",
     "算法刷题（代码随想录）/day1.md",
