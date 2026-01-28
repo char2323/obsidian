@@ -39,16 +39,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cpp/八股/未命名.md",
+                "file": "算法刷题（代码随想录）/day1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "day1"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -170,13 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/Lazyvim.md",
+                "file": "算法刷题（代码随想录）/day1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Lazyvim 的大纲"
+              "title": "day1 的大纲"
             }
           },
           {
@@ -227,8 +227,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "ecdb3e698c3652ce",
+  "active": "4cae1fbcd013a8ec",
   "lastOpenFiles": [
+    "未命名.md",
+    "算法刷题（代码随想录）/day1.md",
+    "Tools/Lazyvim.md",
+    "算法刷题（代码随想录）",
     "Cpp/八股/STL.md",
     "Excalidraw/Drawing 2026-01-19 18.57.50.excalidraw.md",
     "Excalidraw/Drawing 2026-01-19 18.54.39.excalidraw.md",
@@ -254,9 +258,6 @@
     "Tools/Prompt.md",
     "Math/抽象代数复习清单.md",
     "Math/抽代.md",
-    "Math/抽象代数.md",
-    "Math/抽象代数测试.md",
-    "Math/Abstract algrbra.md",
     "Tools/latexsuit.pdf",
     "Pictures/Pasted image 20260104115826.png",
     "Pictures/Pasted image 20260103232225.png",
@@ -272,7 +273,6 @@
     "Pictures/Pasted image 20250907212704.png",
     "Python",
     "Excalidraw",
-    "dbproject",
     "未命名.canvas"
   ]
 }
