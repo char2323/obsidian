@@ -39,12 +39,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法刷题（代码随想录）/day2 滑动窗口、矩阵的螺旋遍历、前缀和.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "day2 滑动窗口、矩阵的螺旋遍历、前缀和"
+              "title": "index"
             }
           },
           {
@@ -184,13 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法刷题（代码随想录）/day2 滑动窗口、矩阵的螺旋遍历、前缀和.md",
+                "file": "index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "day2 滑动窗口、矩阵的螺旋遍历、前缀和 的大纲"
+              "title": "index 的大纲"
             }
           },
           {
@@ -241,10 +241,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "6a2f9a038f368fc9",
+  "active": "4cae1fbcd013a8ec",
   "lastOpenFiles": [
-    "算法刷题（代码随想录）/day1 二分查找、快慢指针.md",
     "算法刷题（代码随想录）/day2 滑动窗口、矩阵的螺旋遍历、前缀和.md",
+    "算法刷题（代码随想录）/day1 二分查找、快慢指针.md",
     "数据结构/基础.md",
     "数据结构",
     "未命名.md",

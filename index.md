@@ -1,5 +1,5 @@
 ---
-title: About me and this blog
+title: Ming's Note
 ---
 
 Here is something useless to anyone but me.
