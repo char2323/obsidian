@@ -3,7 +3,7 @@
 有两种区间的表现形式
 - 当使用闭区间的形式的时候，首先注意 `left = 0; right = nums.size()-1`，不要超出数组范围。`while(left<=right)` 这里要用 `<=`，等于的时候是有意义的。
 - 当使用左闭右开的形式的时候，`right = nums.size()` 即可。`while(left<right)`，这里取等于号没有意义。此外，`if(nums[middle]>target)` 时，`right = middle` 即可，因为 `middle` 取不到，其实也就是 `middle-1]` 的意思。
-- 还要注意 `int middle = left + ((right - left) / 2);` 防止溢出
+- 还要注意 `int middle = left + ((right - left) / 2);` 防止溢出。
 
 时间复杂度：$O(\log n)$
 空间复杂度：$O(1)$
