@@ -12,7 +12,7 @@ for (int i = 0; i < nums.length; i++) {
 }
 ```
 
-滑动窗口的代码框架也不难，使用两个 `while` 来实现窗口滑动
+滑动窗口的代码框架也不难，使用两个 `while` 来实现窗口滑动：
 
 ```cpp
 // 索引区间 [left, right) 是窗口
@@ -478,4 +478,308 @@ public:
 ```
 
 ## [螺旋矩阵](https://leetcode.cn/problems/spiral-matrix/)
+
+代码和思路都比较简单，但初次接触不好想，可以积累下来。
+
+> [!question]
+> 给你一个 `m` 行 `n` 列的矩阵 `matrix` ，请按照 **顺时针螺旋顺序** ，返回矩阵中的所有元素。
+> **示例 1：**
+> 
+> ![](https://assets.leetcode.com/uploads/2020/11/13/spiral1.jpg)
+> 
+> **输入：**matrix = [[1,2,3],[4,5,6],[7,8,9]]
+> **输出：**[1,2,3,6,9,8,7,4,5]
+> 
+> **示例 2：**
+> 
+> ![](https://assets.leetcode.com/uploads/2020/11/13/spiral.jpg)
+> 
+> **输入：**matrix = [[1,2,3,4],[5,6,7,8],[9,10,11,12]]
+> **输出：**[1,2,3,4,8,12,11,10,9,5,6,7]
+> 
+> **提示：**
+> 
+> - `m == matrix.length`
+> - `n == matrix[i].length`
+> - `1 <= m, n <= 10`
+> - `-100 <= matrix[i][j] <= 100`
+
+```cpp
+#include <vector>
+using namespace std;
+
+class Solution {
+public:
+    vector<int> spiralOrder(vector<vector<int>>& matrix) {
+        if (matrix.empty()) return {};
+
+        int m = matrix.size();    // 行数
+        int n = matrix[0].size(); // 列数
+        vector<int> res;
+
+        // 定义四个边界
+        int upper = 0, lower = m - 1;
+        int left = 0, right = n - 1;
+
+        while (true) {
+            // 1. 从左向右遍历顶部
+            for (int j = left; j <= right; ++j) res.push_back(matrix[upper][j]);
+            // 走完后上边界下移，若超过下边界则结束
+            if (++upper > lower) break;
+
+            // 2. 从上向下遍历右侧
+            for (int i = upper; i <= lower; ++i) res.push_back(matrix[i][right]);
+            // 走完后右边界左移，若小于左边界则结束
+            if (--right < left) break;
+
+            // 3. 从右向左遍历底部
+            for (int j = right; j >= left; --j) res.push_back(matrix[lower][j]);
+            // 走完后下边界上移，若小于上边界则结束
+            if (--lower < upper) break;
+
+            // 4. 从下向上遍历左侧
+            for (int i = lower; i >= upper; --i) res.push_back(matrix[i][left]);
+            // 走完后左边界右移，若超过右边界则结束
+            if (++left > right) break;
+        }
+
+        return res;
+    }
+};
+```
+
+## [螺旋矩阵 II](https://leetcode.cn/problems/spiral-matrix-ii/)
+
+> [!question]
+> 给你一个正整数 `n` ，生成一个包含 `1` 到 `n2` 所有元素，且元素按顺时针顺序螺旋排列的 `n x n` 正方形矩阵 `matrix` 。
+> **示例 1：**
+> 
+> ![](https://assets.leetcode.com/uploads/2020/11/13/spiraln.jpg)
+> 
+> **输入：**n = 3
+> **输出：**[[1,2,3],[8,9,4],[7,6,5]]
+> 
+> **示例 2：**
+> 
+> **输入：**n = 1
+> **输出：**[[1]]
+> 
+> **提示：**
+> 
+> - `1 <= n <= 20`
+
+```cpp
+#include <vector>
+using namespace std;
+
+class Solution {
+public:
+    vector<vector<int>> generateMatrix(int n) {
+        // 1. 初始化一个 n x n 的二维 vector，初始值填 0
+        vector<vector<int>> matrix(n, vector<int>(n, 0));
+        
+        // 2. 定义边界和计数器
+        int upper = 0, lower = n - 1;
+        int left = 0, right = n - 1;
+        int num = 1; // 从 1 开始填
+        int target = n * n; // 填到 n^2 为止
+
+        while (num <= target) {
+            // 顶部：从左向右
+            for (int j = left; j <= right; j++) {
+                matrix[upper][j] = num++;
+            }
+            if (++upper > lower) break;
+
+            // 右侧：从上向下
+            for (int i = upper; i <= lower; i++) {
+                matrix[i][right] = num++;
+            }
+            if (--right < left) break;
+
+            // 底部：从右向左
+            for (int j = right; j >= left; j--) {
+                matrix[lower][j] = num++;
+            }
+            if (--lower < upper) break;
+
+            // 左侧：从下向上
+            for (int i = lower; i >= upper; i--) {
+                matrix[i][left] = num++;
+            }
+            if (++left > right) break;
+        }
+
+        return matrix;
+    }
+};
+```
+
+# 前缀和
+
+前缀和的思想是重复利用计算过的子数组之和，从而降低区间查询需要累加计算的次数——其实就是计算过的东西先存起来，有点类似于动态规划、、
+
+## [区间和](https://kamacoder.com/problempage.php?pid=1070)
+
+> [!question]
+> **题目描述**
+> 给定一个整数数组 Array，请计算该数组在每个指定区间内元素的总和。
+> 
+> **输入描述**
+> 第一行输入为整数数组 Array 的长度 n，接下来 n 行，每行一个整数，表示数组的元素。随后的输入为需要计算总和的区间下标：a，b （b > = a），直至文件结束。
+> 
+> **输出描述**
+> 输出每个指定区间内元素的总和。
+> 
+> **输入示例**
+> ```
+> 5
+> 1
+> 2
+> 3
+> 4
+> 5
+> 0 1
+> 1 3
+> ```
+> 
+> **输出示例**
+> ```
+> 3
+> 9
+> ```
+> 
+> **提示信息**
+> 数据范围：  
+> 0 < n <= 100000
+> 
+
+还是比较简单的问题
+
+```cpp
+#include <iostream>
+#include <vector>
+int main() {
+	int n, a, b;
+	std::cin >> n;
+	std::vector<int> vec(n);
+	std::vector<int> sum(n);
+	int presum = 0;
+	for (int i = 0; i < n; i++) {
+		std::cin >> vec[i];
+		presum += vec[i];
+		sum[i] = presum;
+	}
+	while (std::cin >> a >> b) {
+		int sum1;
+		if (a == 0)sum1 = sum[b];
+		else
+			sum1 = sum[b] - sum[a - 1];
+		std::cout << sum1 << std::endl;
+	}
+}
+```
+
+## [开发商购买土地](https://kamacoder.com/problempage.php?pid=1044)
+
+> [!question]
+> **题目描述**
+> 在一个城市区域内，被划分成了n * m个连续的区块，每个区块都拥有不同的权值，代表着其土地价值。目前，有两家开发公司，A 公司和 B 公司，希望购买这个城市区域的土地。 
+> 现在，需要将这个城市区域的所有区块分配给 A 公司和 B 公司。
+> 然而，由于城市规划的限制，只允许将区域按横向或纵向划分成两个子区域，而且每个子区域都必须包含一个或多个区块。 为了确保公平竞争，你需要找到一种分配方式，使得 A 公司和 B 公司各自的子区域内的土地总价值之差最小。 
+> 注意：区块不可再分。
+> 
+> **输入描述**
+> 第一行输入两个正整数，代表 n 和 m。 
+> 接下来的 n 行，每行输出 m 个正整数。
+> 
+> **输出描述**
+> 请输出一个整数，代表两个子区域内土地总价值之间的最小差距。
+> 
+> **输入示例**
+> ```
+> 3 3
+> 1 2 3
+> 2 1 3
+> 1 2 3
+> ```
+> 
+> **输出示例**
+> ```
+> 0
+> ```
+> 
+> **提示信息**
+> 如果将区域按照如下方式划分：
+> 1 2 | 3  
+> 2 1 | 3  
+> 1 2 | 3 
+> 两个子区域内土地总价值之间的最小差距可以达到 0。
+> 
+> **数据范围**：
+> 1 <= n, m <= 100；  
+> n 和 m 不同时为 1。
+
+```cpp
+#include <iostream>
+#include <vector>
+#include <numeric>
+#include <cmath>
+#include <climits>
+
+using namespace std;
+
+int main() {
+    int n, m;
+    if (!(cin >> n >> m)) return 0;
+
+    vector<vector<int>> matrix(n, vector<int>(m));
+    long long totalSum = 0;
+
+    // 1. 输入数据并计算总价值
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            cin >> matrix[i][j];
+            totalSum += matrix[i][j];
+        }
+    }
+
+    long long minDiff = LLONG_MAX;
+
+    // 2. 尝试横向切（按行划分）
+    long long horizontalPart = 0;
+    for (int i = 0; i < n - 1; i++) { // n-1 保证切开后两边都不为空
+        for (int j = 0; j < m; j++) {
+            horizontalPart += matrix[i][j];
+        }
+        long long diff = abs(totalSum - 2 * horizontalPart);
+        minDiff = min(minDiff, diff);
+    }
+
+    // 3. 尝试纵向切（按列划分）
+    long long verticalPart = 0;
+    for (int j = 0; j < m - 1; j++) { // m-1 保证切开后两边都不为空
+        for (int i = 0; i < n; i++) {
+            verticalPart += matrix[i][j];
+        }
+        long long diff = abs(totalSum - 2 * verticalPart);
+        minDiff = min(minDiff, diff);
+    }
+
+    cout << minDiff << endl;
+
+    return 0;
+}
+```
+
+有一个核心公式：
+$$
+diff=∣(TotalSum−PartSum)−PartSum∣=∣TotalSum−2×PartSum∣
+$$
+不难看出：我们设有 $S,S_{A},S_{B}$，三个相加和则 $S_{B}=S-S_{A}$，于是 :
+$$
+diff=S_{A}-S_{B}=S_{A}-(S-S_{A})=2S_{A}-S
+$$
+加上绝对值则得到上式。
+
 
