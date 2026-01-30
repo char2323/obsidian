@@ -39,12 +39,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "算法刷题（代码随想录）/day2 滑动窗口、矩阵的螺旋遍历、前缀和.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "day2 滑动窗口、矩阵的螺旋遍历、前缀和"
             }
           },
           {
@@ -184,13 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md",
+                "file": "算法刷题（代码随想录）/day2 滑动窗口、矩阵的螺旋遍历、前缀和.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "index 的大纲"
+              "title": "day2 滑动窗口、矩阵的螺旋遍历、前缀和 的大纲"
             }
           },
           {
@@ -243,6 +243,7 @@
   },
   "active": "4cae1fbcd013a8ec",
   "lastOpenFiles": [
+    "index.md",
     "算法刷题（代码随想录）/day2 滑动窗口、矩阵的螺旋遍历、前缀和.md",
     "算法刷题（代码随想录）/day1 二分查找、快慢指针.md",
     "数据结构/基础.md",
@@ -272,7 +273,6 @@
     "Math/拓扑复习.md",
     "Math/拓扑试卷.md",
     "Math/拓扑学.md",
-    "Tools/Prompt.md",
     "Tools/latexsuit.pdf",
     "Pictures/Pasted image 20260104115826.png",
     "Pictures/Pasted image 20260103232225.png",

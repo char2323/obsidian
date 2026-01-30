@@ -776,7 +776,7 @@ int main() {
 $$
 diff=∣(TotalSum−PartSum)−PartSum∣=∣TotalSum−2×PartSum∣
 $$
-不难看出：我们设有 $S,S_{A},S_{B}$，三个相加和则 $S_{B}=S-S_{A}$，于是 :
+不难看出：我们设有 $S,S_{A},S_{B}$，不难看出 $S_{B}=S-S_{A}$，于是 :
 $$
 diff=S_{A}-S_{B}=S_{A}-(S-S_{A})=2S_{A}-S
 $$
