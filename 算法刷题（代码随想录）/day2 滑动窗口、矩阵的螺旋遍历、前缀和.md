@@ -229,6 +229,8 @@ public:
 };
 ```
 
+^87710d
+
 ## [找所有字母异位词](https://leetcode.cn/problems/find-all-anagrams-in-a-string/)
 
 > [!question]
