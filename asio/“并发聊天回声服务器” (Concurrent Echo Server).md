@@ -46,7 +46,7 @@ sequenceDiagram
 
 这里有一个关键点：我们需要把 `socket` 的所有权转移给新线程。最简单的办法是使用 `std::shared_ptr`。
 
-```C++
+```cpp
 #include <iostream>
 #include <boost/asio.hpp>
 #include <thread>
@@ -142,7 +142,7 @@ int main() {
 
 客户端我们需要稍微升级一下，让它支持 **“用户输入 -> 发送 -> 接收 -> 再输入”** 的循环。
 
-```C++
+```cpp
 #include <iostream>
 #include <boost/asio.hpp>
 #include <string>
