@@ -29,7 +29,7 @@
 
 **逻辑**: 准备 -> 监听 -> 等待连接 -> **先读后写**
 
-```C++
+```cpp
 #include <iostream>
 #include <boost/asio.hpp>
 #include <string>
@@ -93,7 +93,7 @@ int main() {
 
 **逻辑**: 准备 -> 连接 -> **先写后读**
 
-```C++
+```cpp
 #include <iostream>
 #include <boost/asio.hpp>
 #include <string>
