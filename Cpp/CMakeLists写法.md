@@ -163,3 +163,23 @@ target_include_directories(${PROJECT_NAME} PRIVATE
 target_link_libraries(${PROJECT_NAME} PRIVATE ${Boost_LIBRARIES})
 
 ```
+
+```CMake
+cmake_minimum_required(VERSION 3.16)
+project(AlgoProblems)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# 找到当前目录下所有 cpp 文件
+file(GLOB CPP_FILES "*.cpp")
+
+foreach(cpp_file ${CPP_FILES})
+    # 去掉路径和后缀，只保留文件名
+    get_filename_component(target_name ${cpp_file} NAME_WE)
+
+    # 为每个 cpp 创建一个可执行文件
+    add_executable(${target_name} ${cpp_file})
+endforeach()
+
+```
