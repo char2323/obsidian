@@ -254,13 +254,15 @@ void levelOrderTraverse(TreeNode* root){
 ```cpp
 vector<vector<int>> levelOrder(TreeNode* root) {
     queue<TreeNode*> q;
-    if (root) q.push(root);
+    if (root) 
+    	q.push(root);
     vector<vector<int>> result;
     while (!q.empty()) {
         int sz = q.size(); // 锁定当前层的节点数
         vector<int> vec;
         for (int i = 0; i < sz; i++) {
-            TreeNode* node = q.front(); q.pop();
+            TreeNode* node = q.front(); 
+            q.pop();
             vec.push_back(node->val);
             if (node->left) q.push(node->left);
             if (node->right) q.push(node->right);
