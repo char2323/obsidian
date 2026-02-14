@@ -51,12 +51,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法刷题（代码随想录）/二叉树/构造篇.md",
+                "file": "Journal/2026-02-14.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "构造篇"
+              "title": "2026-02-14"
             }
           },
           {
@@ -131,8 +131,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "925e955b1ae91d51",
@@ -197,13 +196,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法刷题（代码随想录）/二叉树/构造篇.md",
+                "file": "Journal/2026-02-14.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "构造篇 的大纲"
+              "title": "2026-02-14 的大纲"
             }
           },
           {
@@ -238,8 +237,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -257,18 +255,19 @@
   },
   "active": "4cae1fbcd013a8ec",
   "lastOpenFiles": [
+    "算法刷题（代码随想录）/二叉树/二叉树算法思想.md",
+    "Journal/2026-02-14.md",
+    "算法刷题（代码随想录）/二叉树/思路篇.md",
+    "算法刷题（代码随想录）/二叉树/构造篇.md",
     "Pictures/Pasted image 20260214002650.png",
     "Excalidraw/Drawing 2026-02-10 21.57.32.excalidraw.md",
-    "算法刷题（代码随想录）/二叉树/构造篇.md",
     "Pictures/Pasted image 20260214001850.png",
     "Pictures/Pasted image 20260214001121.png",
     "算法刷题（代码随想录）/day12 基础二叉树.md",
     "Pictures/Pasted image 20260214000420.png",
     "Pictures/Pasted image 20260213235848.png",
-    "算法刷题（代码随想录）/二叉树/思路篇.md",
     "Cpp/CMakeLists写法.md",
     "算法刷题（代码随想录）/哈希表与哈希集合.md",
-    "算法刷题（代码随想录）/二叉树/二叉树算法思想.md",
     "算法刷题（代码随想录）/二叉树",
     "未命名.base",
     "未命名 1.base",
@@ -301,7 +300,6 @@
     "Cpp/八股",
     "English",
     "Tools/latexsuit.pdf",
-    "Pictures/Pasted image 20260104115826.png",
     "小说",
     "未命名.canvas"
   ]
