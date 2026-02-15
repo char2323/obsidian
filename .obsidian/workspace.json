@@ -51,12 +51,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法刷题（代码随想录）/二叉树/后序篇.md",
+                "file": "算法刷题（代码随想录）/二叉树/4.序列化篇.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "后序篇"
+              "title": "4.序列化篇"
             }
           },
           {
@@ -197,13 +197,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法刷题（代码随想录）/二叉树/后序篇.md",
+                "file": "算法刷题（代码随想录）/二叉树/4.序列化篇.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "后序篇 的大纲"
+              "title": "4.序列化篇 的大纲"
             }
           },
           {
@@ -257,15 +257,18 @@
   },
   "active": "4cae1fbcd013a8ec",
   "lastOpenFiles": [
+    "算法刷题（代码随想录）/二叉树/0.二叉树算法思想.md",
+    "算法刷题（代码随想录）/二叉树/4.序列化篇.md",
+    "算法刷题（代码随想录）/二叉树/3.后序篇.md",
+    "算法刷题（代码随想录）/二叉树/2.构造篇.md",
+    "算法刷题（代码随想录）/二叉树/1.思路篇.md",
+    "Pictures/Pasted image 20260215230348.png",
+    "Excalidraw/Drawing 2026-02-10 21.57.32.excalidraw.md",
+    "Pictures/Pasted image 20260215225546.png",
     "2,3],[3.md",
-    "算法刷题（代码随想录）/二叉树/后序篇.md",
     "1.md",
     "Journal/2026-02-14.md",
-    "算法刷题（代码随想录）/二叉树/二叉树算法思想.md",
-    "算法刷题（代码随想录）/二叉树/思路篇.md",
-    "算法刷题（代码随想录）/二叉树/构造篇.md",
     "Pictures/Pasted image 20260214002650.png",
-    "Excalidraw/Drawing 2026-02-10 21.57.32.excalidraw.md",
     "Pictures/Pasted image 20260214001850.png",
     "Pictures/Pasted image 20260214001121.png",
     "算法刷题（代码随想录）/day12 基础二叉树.md",
@@ -285,18 +288,14 @@
     "算法刷题（代码随想录）/day11 栈与队列2.md",
     "算法刷题（代码随想录）/day10 栈与队列1.md",
     "Pictures/Pasted image 20260210220507.png",
-    "Pictures/Pasted image 20260210220002.png",
     "asio/“并发聊天回声服务器” (Concurrent Echo Server).md",
     "asio/同步阻塞（Synchronous Blocking）.md",
     "asio/“同步阻塞”的 Echo 小项目.md",
     "Cpp/typedef & using.md",
     "asio/write()&write_some();read()&raed_some().md",
-    "Pictures/Pasted image 20260208235047.png",
     "asio/Socket.md",
     "asio",
     "Tools/vimoperation.md",
-    "Cpp/项目构建.md",
-    "算法刷题（代码随想录）/day1 二分查找、快慢指针.md",
     "数据结构",
     "算法刷题（代码随想录）",
     "Cpp/八股",
