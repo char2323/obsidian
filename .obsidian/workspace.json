@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法刷题（代码随想录）/哈希表与哈希集合.md",
+                "file": "算法刷题（代码随想录）/二叉搜索树/3.构造篇.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "哈希表与哈希集合"
+              "title": "3.构造篇"
             }
           },
           {
@@ -51,12 +51,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法刷题（代码随想录）/二叉树/4.序列化篇.md",
+                "file": "MessyThings/2026年好好加油！！！！！！.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4.序列化篇"
+              "title": "2026年好好加油！！！！！！"
             }
           },
           {
@@ -74,7 +74,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -131,8 +131,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "925e955b1ae91d51",
@@ -197,13 +196,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法刷题（代码随想录）/二叉树/4.序列化篇.md",
+                "file": "算法刷题（代码随想录）/二叉搜索树/3.构造篇.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "4.序列化篇 的大纲"
+              "title": "3.构造篇 的大纲"
             }
           },
           {
@@ -255,53 +254,54 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "4cae1fbcd013a8ec",
+  "active": "14ff519acd1d2a12",
   "lastOpenFiles": [
-    "算法刷题（代码随想录）/二叉树/0.二叉树算法思想.md",
+    "算法刷题（代码随想录）/二叉搜索树/2.基操篇.md",
+    "算法刷题（代码随想录）/二叉搜索树/3.构造篇.md",
+    "Pictures/Pasted image 20260309163110.png",
+    "算法刷题（代码随想录）/二叉搜索树/1.特性篇.md",
     "算法刷题（代码随想录）/二叉树/4.序列化篇.md",
+    "算法刷题（代码随想录）/二叉搜索树",
+    "Pictures/Pasted image 20260309152615.png",
+    "Excalidraw/Drawing 2026-02-10 21.57.32.excalidraw.md",
+    "算法刷题（代码随想录）/二叉树/1.思路篇.md",
+    "算法刷题（代码随想录）/day12 基础二叉树.md",
+    "算法刷题（代码随想录）/二叉树/0.二叉树算法思想.md",
+    "Pictures/Pasted image 20260309150234.png",
+    "MessyThings/2026年好好加油！！！！！！.md",
+    "Tools/包管理.md",
+    "Tools/🧠 Conda 常用命令速查表.md",
+    "算法刷题（代码随想录）/哈希表与哈希集合.md",
+    "Journal/2026-02-26.md",
+    "index.md",
+    "Math/The perceptron A probabilistic model for information storage and organization in the brain.md",
+    "未命名.base",
+    "未命名 1.base",
+    "1.md",
+    "2,3],[3.md",
     "算法刷题（代码随想录）/二叉树/3.后序篇.md",
     "算法刷题（代码随想录）/二叉树/2.构造篇.md",
-    "算法刷题（代码随想录）/二叉树/1.思路篇.md",
     "Pictures/Pasted image 20260215230348.png",
-    "Excalidraw/Drawing 2026-02-10 21.57.32.excalidraw.md",
     "Pictures/Pasted image 20260215225546.png",
-    "2,3],[3.md",
-    "1.md",
     "Journal/2026-02-14.md",
     "Pictures/Pasted image 20260214002650.png",
     "Pictures/Pasted image 20260214001850.png",
     "Pictures/Pasted image 20260214001121.png",
-    "算法刷题（代码随想录）/day12 基础二叉树.md",
     "Pictures/Pasted image 20260214000420.png",
     "Pictures/Pasted image 20260213235848.png",
     "Cpp/CMakeLists写法.md",
-    "算法刷题（代码随想录）/哈希表与哈希集合.md",
     "算法刷题（代码随想录）/二叉树",
-    "未命名.base",
-    "未命名 1.base",
     "算法刷题（代码随想录）/day13 二叉搜索树BST.md",
     "Cpp/document/28-map用法和手写map.md",
-    "Pictures/Pasted image 20260212164510.png",
-    "Pictures/Pasted image 20260212163321.png",
     "算法刷题（代码随想录）/day6 哈希表1.md",
     "Tools/Lazyvim.md",
     "算法刷题（代码随想录）/day11 栈与队列2.md",
-    "算法刷题（代码随想录）/day10 栈与队列1.md",
-    "Pictures/Pasted image 20260210220507.png",
-    "asio/“并发聊天回声服务器” (Concurrent Echo Server).md",
-    "asio/同步阻塞（Synchronous Blocking）.md",
-    "asio/“同步阻塞”的 Echo 小项目.md",
-    "Cpp/typedef & using.md",
-    "asio/write()&write_some();read()&raed_some().md",
-    "asio/Socket.md",
     "asio",
-    "Tools/vimoperation.md",
     "数据结构",
     "算法刷题（代码随想录）",
     "Cpp/八股",
     "English",
     "Tools/latexsuit.pdf",
-    "小说",
     "未命名.canvas"
   ]
 }
