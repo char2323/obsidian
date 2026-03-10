@@ -66,7 +66,7 @@
               "type": "markdown",
               "state": {
                 "file": "算法刷题（代码随想录）/day15-26 二叉树综合.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -255,11 +255,12 @@
   },
   "active": "d1a021adcf8fac89",
   "lastOpenFiles": [
-    "算法刷题（代码随想录）/day12 基础二叉树.md",
-    "算法刷题（代码随想录）/day15-26 二叉树综合.md",
-    "算法刷题（代码随想录）/二叉树/0.二叉树算法思想.md",
+    "Pictures/Pasted image 20260310171245.png",
     "算法刷题（代码随想录）/二叉树/1.思路篇.md",
+    "算法刷题（代码随想录）/二叉树/0.二叉树算法思想.md",
+    "算法刷题（代码随想录）/day15-26 二叉树综合.md",
     "算法刷题（代码随想录）/二叉树/2.构造篇.md",
+    "算法刷题（代码随想录）/day12 基础二叉树.md",
     "算法刷题（代码随想录）/day13 二叉搜索树BST.md",
     "Pictures/Pasted image 20260309223911.png",
     "Pictures/Pasted image 20260309223720.png",
@@ -293,7 +294,6 @@
     "1.md",
     "2,3],[3.md",
     "算法刷题（代码随想录）/二叉树/3.后序篇.md",
-    "Journal/2026-02-14.md",
     "算法刷题（代码随想录）/二叉树",
     "asio",
     "数据结构",
