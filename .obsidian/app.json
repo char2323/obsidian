@@ -1,6 +1,6 @@
 {
   "attachmentFolderPath": "Pictures",
-  "vimMode": false,
+  "vimMode": true,
   "pdfExportSettings": {
     "includeName": true,
     "pageSize": "Letter",

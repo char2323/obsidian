@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法刷题（代码随想录）/day27-30 DFS&回溯算法.md",
+                "file": "MessyThings/11.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "day27-30 DFS&回溯算法"
+              "title": "11"
             }
           },
           {
@@ -65,16 +65,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据结构/408考研：BST、AVL与红黑树核心通关秘籍.md",
+                "file": "Cpp/CMakeLists写法.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "408考研：BST、AVL与红黑树核心通关秘籍"
+              "title": "CMakeLists写法"
+            }
+          },
+          {
+            "id": "cddd90f560ae3a10",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tools/包管理.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "包管理"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -196,13 +210,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据结构/408考研：BST、AVL与红黑树核心通关秘籍.md",
+                "file": "Tools/包管理.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "408考研：BST、AVL与红黑树核心通关秘籍 的大纲"
+              "title": "包管理 的大纲"
             }
           },
           {
@@ -237,7 +251,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -253,15 +268,23 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "d1a021adcf8fac89",
+  "active": "cddd90f560ae3a10",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-02-10 21.57.32.excalidraw.md",
+    "Tools/🧠 Conda 常用命令速查表.md",
+    "数据结构/排序2.md",
+    "数据结构/排序.md",
+    "数据结构/题目.md",
+    "Cpp/CMakeLists写法.md",
+    "MessyThings/11.md",
     "算法刷题（代码随想录）/day27-30 DFS&回溯算法.md",
     "Tools/latexsuit.pdf",
-    "数据结构/408考研：BST、AVL与红黑树核心通关秘籍.md",
+    "算法刷题（代码随想录）/day12 基础二叉树.md",
+    "Tools/包管理.md",
+    "Pictures/Pasted image 20260329095648.png",
     "数据结构/二叉树形态数量“套路”解析.md",
     "数据结构/408数据结构：树高与节点数核心考点学习指南.md",
-    "数据结构/题目.md",
+    "数据结构/408考研：BST、AVL与红黑树核心通关秘籍.md",
+    "Excalidraw/Drawing 2026-02-10 21.57.32.excalidraw.md",
     "数据结构/基础.md",
     "未命名.base",
     "Tools/Lazyvim.md",
@@ -269,7 +292,6 @@
     "Tools/Yazi.md",
     "考研/1.时间规划.md",
     "考研",
-    "算法刷题（代码随想录）/day12 基础二叉树.md",
     "Pictures/Pasted image 20260311092526.png",
     "算法刷题（代码随想录）/二叉树/0.二叉树算法思想.md",
     "算法刷题（代码随想录）/二叉树/1.思路篇.md",
@@ -286,13 +308,7 @@
     "算法刷题（代码随想录）/归并排序.md",
     "Pictures/Pasted image 20260309215853.png",
     "Pictures/Pasted image 20260309215054.png",
-    "Pictures/Pasted image 20260309215025.png",
     "算法刷题（代码随想录）/二叉搜索树/4.后序篇.md",
-    "算法刷题（代码随想录）/二叉搜索树/3.构造篇.md",
-    "1,null,2,null,3],[1,null,3,2],[2,1,3],[3,1,null,null,2],[3,2,null,1.md",
-    "MessyThings/2026年好好加油！！！！！！.md",
-    "算法刷题（代码随想录）/二叉搜索树/2.基操篇.md",
-    "算法刷题（代码随想录）/二叉搜索树/1.特性篇.md",
     "算法刷题（代码随想录）/二叉搜索树",
     "未命名 1.base",
     "算法刷题（代码随想录）/二叉树",
