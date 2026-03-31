@@ -51,12 +51,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法刷题（代码随想录）/day12 基础二叉树.md",
+                "file": "数据结构/408数据结构：树高与节点数核心考点学习指南.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "day12 基础二叉树"
+              "title": "408数据结构：树高与节点数核心考点学习指南"
             }
           },
           {
@@ -79,16 +79,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/包管理.md",
+                "file": "MessyThings/2026年好好加油！！！！！！.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "包管理"
+              "title": "2026年好好加油！！！！！！"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -210,13 +210,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/包管理.md",
+                "file": "MessyThings/2026年好好加油！！！！！！.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "包管理 的大纲"
+              "title": "2026年好好加油！！！！！！ 的大纲"
             }
           },
           {
@@ -268,8 +268,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "cddd90f560ae3a10",
+  "active": "4cae1fbcd013a8ec",
   "lastOpenFiles": [
+    "数据结构/408考研：BST、AVL与红黑树核心通关秘籍.md",
+    "算法刷题（代码随想录）/day12 基础二叉树.md",
+    "MessyThings/2026年好好加油！！！！！！.md",
+    "Tools/包管理.md",
     "Tools/🧠 Conda 常用命令速查表.md",
     "数据结构/排序2.md",
     "数据结构/排序.md",
@@ -278,12 +282,9 @@
     "MessyThings/11.md",
     "算法刷题（代码随想录）/day27-30 DFS&回溯算法.md",
     "Tools/latexsuit.pdf",
-    "算法刷题（代码随想录）/day12 基础二叉树.md",
-    "Tools/包管理.md",
     "Pictures/Pasted image 20260329095648.png",
     "数据结构/二叉树形态数量“套路”解析.md",
     "数据结构/408数据结构：树高与节点数核心考点学习指南.md",
-    "数据结构/408考研：BST、AVL与红黑树核心通关秘籍.md",
     "Excalidraw/Drawing 2026-02-10 21.57.32.excalidraw.md",
     "数据结构/基础.md",
     "未命名.base",
@@ -308,7 +309,6 @@
     "算法刷题（代码随想录）/归并排序.md",
     "Pictures/Pasted image 20260309215853.png",
     "Pictures/Pasted image 20260309215054.png",
-    "算法刷题（代码随想录）/二叉搜索树/4.后序篇.md",
     "算法刷题（代码随想录）/二叉搜索树",
     "未命名 1.base",
     "算法刷题（代码随想录）/二叉树",
