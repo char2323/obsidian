@@ -51,12 +51,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据结构/408数据结构：树高与节点数核心考点学习指南.md",
+                "file": "计算机组成原理/第四章 存储器.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "408数据结构：树高与节点数核心考点学习指南"
+              "title": "第四章 存储器"
             }
           },
           {
@@ -145,7 +145,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "925e955b1ae91d51",
@@ -210,13 +211,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MessyThings/2026年好好加油！！！！！！.md",
+                "file": "计算机组成原理/第四章 存储器.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2026年好好加油！！！！！！ 的大纲"
+              "title": "第四章 存储器 的大纲"
             }
           },
           {
@@ -251,8 +252,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 353.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -270,21 +270,35 @@
   },
   "active": "4cae1fbcd013a8ec",
   "lastOpenFiles": [
+    "Pictures/Pasted image 20260412160230.png",
+    "Pictures/Pasted image 20260412155941.png",
+    "Pictures/Pasted image 20260412154725.png",
+    "Pictures/Pasted image 20260412154350.png",
+    "Pictures/Pasted image 20260412154237.png",
+    "Pictures/Pasted image 20260412153808.png",
+    "Pictures/Pasted image 20260412153757.png",
+    "Pictures/Pasted image 20260412153718.png",
+    "Pictures/Pasted image 20260412153624.png",
+    "Pictures/Pasted image 20260412153417.png",
+    "Pictures/Pasted image 20260412152921.png",
+    "计算机组成原理/第一章 计算机系统概述.md",
+    "计算机组成原理/第四章 存储器.md",
+    "考研/Math.md",
+    "MessyThings/2026年好好加油！！！！！！.md",
+    "Cpp/CMakeLists写法.md",
+    "Tools/latexsuit.pdf",
+    "计算机组成原理",
+    "数据结构/408数据结构：树高与节点数核心考点学习指南.md",
     "数据结构/408考研：BST、AVL与红黑树核心通关秘籍.md",
     "算法刷题（代码随想录）/day12 基础二叉树.md",
-    "MessyThings/2026年好好加油！！！！！！.md",
     "Tools/包管理.md",
     "Tools/🧠 Conda 常用命令速查表.md",
     "数据结构/排序2.md",
     "数据结构/排序.md",
     "数据结构/题目.md",
-    "Cpp/CMakeLists写法.md",
     "MessyThings/11.md",
     "算法刷题（代码随想录）/day27-30 DFS&回溯算法.md",
-    "Tools/latexsuit.pdf",
-    "Pictures/Pasted image 20260329095648.png",
     "数据结构/二叉树形态数量“套路”解析.md",
-    "数据结构/408数据结构：树高与节点数核心考点学习指南.md",
     "Excalidraw/Drawing 2026-02-10 21.57.32.excalidraw.md",
     "数据结构/基础.md",
     "未命名.base",
@@ -293,29 +307,15 @@
     "Tools/Yazi.md",
     "考研/1.时间规划.md",
     "考研",
-    "Pictures/Pasted image 20260311092526.png",
     "算法刷题（代码随想录）/二叉树/0.二叉树算法思想.md",
     "算法刷题（代码随想录）/二叉树/1.思路篇.md",
     "算法刷题（代码随想录）/快速排序.md",
-    "Pictures/Pasted image 20260311091654.png",
-    "Pictures/Pasted image 20260311091547.png",
-    "算法刷题（代码随想录）/day15-26 二叉树综合.md",
-    "Pictures/Pasted image 20260310171245.png",
-    "算法刷题（代码随想录）/二叉树/2.构造篇.md",
-    "算法刷题（代码随想录）/day13 二叉搜索树BST.md",
-    "Pictures/Pasted image 20260309223911.png",
-    "Pictures/Pasted image 20260309223720.png",
-    "Pictures/Pasted image 20260309222408.png",
-    "算法刷题（代码随想录）/归并排序.md",
-    "Pictures/Pasted image 20260309215853.png",
-    "Pictures/Pasted image 20260309215054.png",
     "算法刷题（代码随想录）/二叉搜索树",
     "未命名 1.base",
     "算法刷题（代码随想录）/二叉树",
     "asio",
     "数据结构",
     "算法刷题（代码随想录）",
-    "Cpp/八股",
     "未命名.canvas"
   ]
 }
